@@ -11,6 +11,17 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.pub-item{display:flex;gap:1.2em;margin:0 0 1.6em}
+.pub-year{flex:0 0 3em;opacity:.6;font-size:.9em;padding-top:.2em}
+.pub-body{flex:1;min-width:0}
+.pub-title{font-weight:600;line-height:1.35;margin-bottom:.2em}
+.pub-title a{text-decoration:none}
+.pub-title a:hover{text-decoration:underline}
+.pub-authors,.pub-venue{font-size:.9em;line-height:1.5}
+.pub-venue{opacity:.75}
+</style>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -23,12 +34,12 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include publication-item.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include publication-item.html %}
   {% endfor %}
 {% endif %}
 
