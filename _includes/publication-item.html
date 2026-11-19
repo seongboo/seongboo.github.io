@@ -1,0 +1,8 @@
+<div class="pub-item">
+  <div class="pub-year">{{ post.date | date: "%Y" }}</div>
+  <div class="pub-body">
+    <div class="pub-title"><a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a> <i class="fas fa-fw fa-external-link-alt" aria-hidden="true"></i></div>
+    <div class="pub-authors">{{ post.authors }}</div>
+    <div class="pub-venue"><i>{{ post.venue }}</i> {{ post.journal_info }}</div>
+  </div>
+</div>
