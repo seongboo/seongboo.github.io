@@ -27,5 +27,3 @@ My research is in computational materials science. I use density functional theo
 
 - **Lecturer**, Department of Physics, University of Ulsan (March 2024 – February 2026): General Physics Laboratory (undergraduate).
 - **Graduate Teaching Assistant**, Department of Physics, University of Ulsan (March 2020 – February 2024): General Physics Laboratory.
-
-[Full CV (PDF)](https://drive.google.com/file/d/1CF-pNpqh8qq5_sWvuzxRKG9bsWelp8Q_/view)
