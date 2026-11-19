@@ -21,7 +21,31 @@ Notes I write while studying, shared as PDFs.
 
 </details>
 
-- Berry phase and the modern theory of polarization (in preparation)
-- Wannier functions and maximal localization (in preparation)
-- Equivariant machine-learning interatomic potentials: NequIP, MACE (in preparation)
-- Landau–Ginzburg phase-field models (in preparation)
+<details markdown="1">
+<summary>Berry phase and the modern theory of polarization</summary>
+
+- In preparation
+
+</details>
+
+<details markdown="1">
+<summary>Wannier functions and maximal localization</summary>
+
+- In preparation
+
+</details>
+
+<details markdown="1">
+<summary>Equivariant machine-learning interatomic potentials: NequIP, MACE</summary>
+
+- In preparation
+
+</details>
+
+<details markdown="1">
+<summary>Landau–Ginzburg phase-field models</summary>
+
+- In preparation
+
+</details>
+
