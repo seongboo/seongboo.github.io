@@ -49,3 +49,9 @@ Notes I write while studying, shared as PDFs.
 
 </details>
 
+<details markdown="1">
+<summary>Shift current and the bulk photovoltaic effect</summary>
+
+- In preparation
+
+</details>
