@@ -23,7 +23,7 @@ repository : "seongboo/seongboo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name : "Seongboo Park"
   pronouns         : # example: "she/her"  
   bio : "PhD student, Physics @ University of Ulsan | Computational materials science (DFT, MLIP)"
