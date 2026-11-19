@@ -1,11 +1,11 @@
 <!-- Render the citation if supplied -->
 {% if include.citation %}
-Recommended citation: {{ include.citation }}<br />
+{{ include.citation }}<br />
 {% endif %}
 <!-- Create the variable so it exists in the event there is no citation -->
 {% assign block = "" %}
 {% if include.paperurl %}
-{% capture block %}{{ block }}<a href="{{ include.paperurl }}">Download Paper</a> | {% endcapture %}
+{% capture block %}{{ block }}<a href="{{ include.paperurl }}">DOI</a> | {% endcapture %}
 {% endif %}
 {% if include.slidesurl %}
 {% capture block %}{{ block }}<a href="{{ include.slidesurl }}">Download Slides</a> | {% endcapture %}
